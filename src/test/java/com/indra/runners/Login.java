@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/login.feature",
         glue = "com.indra.steps_definitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = ""
+        tags = "@test1"
 )
 public class Login {
 }
